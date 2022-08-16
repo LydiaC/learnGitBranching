@@ -114,13 +114,13 @@ exports.level = {
               "* Nous allons réordonner les commits pour que celui que nous voulions changer soit sur le dessus `git rebase -i`",
               "* Nous allons utiliser `git commit --amend` pour faire les petites modifications",
               "* Nous allons réordonner les commits dans l'ordre original avec `git rebase -i`",
-              "* Finalement, nous allons déplacer main vers la nouvelle tête de l'arbre (avec la méthode de votre choix)",
+              "* Pour finir, nous allons déplacer main vers la nouvelle tête de l'arbre (avec la méthode de votre choix)",
               "",
               "Il y a plusieurs façons d'atteindre ce but (cherry-pick semble très tentant), mais nous allons parler de cherry-pick plus tard, pour le moment concentrez-vous sur cette technique.",
               "",
-              "Pour terminer, Faites attention au but -- dû au fait que nous déplaçons les commits 2 fois, ils se retrouvent tous les deux avec une apostrophe. Une deuxième apostrophe est ajoutée sur le commit que nous modifions, ce qui nous donne la forme finale de l'arbre.",
+              "Pour terminer, Faites attention au but -- puisque nous déplaçons les commits 2 fois, ils se retrouvent tous les deux avec une apostrophe. Une deuxième apostrophe est ajoutée sur le commit que nous modifions, ce qui nous donne la forme finale de l'arbre.",
               "",
-              "Ceci étant dit, je peux comparer le résultat avec la structure et les différentes apostrophes. Tant que votre arbre `main` a la même structure et les différentes apostrophes le niveau sera considéré réussi."
+              "Ceci étant dit, je peux comparer le résultat avec la structure et les différentes apostrophes. Tant que votre arbre `main` a la même structure et les différentes apostrophes, le niveau sera considéré réussi."
             ]
           }
         },
