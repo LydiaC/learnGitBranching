@@ -125,7 +125,7 @@ exports.level = {
             "markdowns": [
               "## Références relatives",
               "",
-              "Se déplacer dans Git en spécifiant des identifiants de commits (hashes) peut être un peu agaçant. Dans le monde réel vous n'aurez pas une vue sur un joli arbre des commits à côté de votre terminal, ainsi vous aurez à utiliser `git log` pour connaître les identifiants.",
+              "Se déplacer dans Git en spécifiant des identifiants de commits (hashes) peut être un peu agaçant. Dans le monde réel vous n'aurez pas une vue sur un joli arbre des commits à côté de votre terminal, vous devrez donc utiliser `git log` pour connaître les identifiants.",
               "",
               "De plus, les identifiants sont plus longs dans le vrai monde de Git qu'ici. Par exemple, l'identifiant du commit introduit au précédent niveau était `fed2da64c0efc5293610bdd892f82a58e8cbc5d8`. Difficilement mémorisable...",
               "",
@@ -139,12 +139,12 @@ exports.level = {
             "markdowns": [
               "Comme je l'ai dit, spécifier un commit par son identifiant n'est pas très pratique, c'est pourquoi Git a des références relatives. Elles sont géniales !",
               "",
-              "Avec les références relatives vous pouvez commencer par vous placer à un endroit mémorisable (comme la branche `bugFix` ou `HEAD`) et travailler depuis ici.",
+              "Avec les références relatives vous pouvez commencer par vous placer à un endroit mémorisable (comme la branche `bugFix` ou `HEAD`) et travailler depuis ce point.",
               "",
               "Les commits relatifs sont puissants, et on va en introduire deux simples ici :",
               "",
               "* Revenir d'un commit en arrière avec `^`",
-              "* Revenir de plusieurs en arrière avec `~<num>`"
+              "* Revenir de plusieurs commits en arrière avec `~<num>`"
             ]
           }
         },
@@ -152,7 +152,7 @@ exports.level = {
           "type": "GitDemonstrationView",
           "options": {
             "beforeMarkdowns": [
-              "Regardons l'opérateur circonflexe (^) d'abord. Chaque fois que vous le faites suivre un nom de référence, vous êtes en train de demander à Git de trouver le parent du commit spécifié.",
+              "Regardons l'opérateur circonflexe (^) d'abord. Chaque fois qu'il suit un nom de référence, vous êtes en train de demander à Git de trouver le parent du commit spécifié.",
               "",
               "Ainsi, `main^` est équivalent à \"le premier parent de `main`\".",
               "",
@@ -161,7 +161,7 @@ exports.level = {
               "Faisons un checkout du commit avant main."
             ],
             "afterMarkdowns": [
-              "Boum ! Fini. Bien plus facile qu'écrire l'identifiant du commit."
+              "Boum ! Fini. Bien plus facile que d'écrire l'identifiant du commit."
             ],
             "command": "git checkout main^",
             "beforeCommand": "git commit"
