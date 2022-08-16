@@ -226,11 +226,11 @@ exports.level = {
             "markdowns": [
               "\"Bon, mais dans ce cas, que se passe-t-il si je spécifie explicitement la source et la destination avec `<source>:<destination>` ?\"",
               "",
-              "Si vous vous sentez assez déterminé pour rapatrier (fetch) des commits *directement* dans votre branche locale, alors oui vous pouvez préciser cela avec la notation refspec. Vous ne pouvez cependant pas rapatrier les commits dans la branche courante.",
+              "Si vous êtes déterminé à rapatrier (fetch) des commits *directement* dans votre branche locale, alors oui vous pouvez préciser cela avec la notation refspec. Vous ne pouvez cependant pas rapatrier les commits dans la branche courante.",
               "",
               "Il y a un petit piège cependant : dans ce cas précis `<source>` est l'emplacement sur le dépôt *distant* et `<destination>` l'emplacement sur le dépôt *local* où seront placés ces commits. C'est l'exact opposé de git push, et cela se tient puisque nous transférons des données dans le sens opposé !",
               "",
-              "Cela dit, les développeurs utilisent rarement cette syntaxe en pratique. Je l'introduis principalement pour concrétiser le fait que `fetch` et `push` sont très similaires, fonctionnant simplement dans des sens opposées."
+              "Cela dit, les développeurs utilisent rarement cette syntaxe en pratique. Je l'introduis principalement pour concrétiser le fait que `fetch` et `push` sont très similaires, fonctionnant simplement dans des sens opposés."
             ]
           }
         },
@@ -238,7 +238,7 @@ exports.level = {
           "type": "GitDemonstrationView",
           "options": {
             "beforeMarkdowns": [
-              "Voyons ce délire en action :"
+              "Voyons cela en action :"
             ],
             "afterMarkdowns": [
               "Wow ! Vous voyez, Git a résolu `foo~1` comme un emplacement sur origin et a ensuite téléchargé les commits dans `bar` (qui était une branche locale). Remarquez aussi que `foo` et `o/foo` n'ont pas été mises à jour puisque nous avons spécifié une destination."
