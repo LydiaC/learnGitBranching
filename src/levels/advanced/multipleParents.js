@@ -245,7 +245,7 @@ exports.level = {
             "beforeMarkdowns": [
               "Nous avons un commit/merge. Si nous faisons checkout `main^` sans le symbole, on obtient le premier parent suivant ce commit. ",
               "",
-              "(*Dans notre vue, le premier parent se situe juste au dessus du merge.*)"
+              "(*Dans notre vue, le premier parent se situe juste au-dessus du merge.*)"
             ],
             "afterMarkdowns": [
               "Facile -- c\'est ce que nous faisons tout le temps."
