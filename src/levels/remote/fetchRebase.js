@@ -31,7 +31,7 @@ exports.level = {
     "gl": "Presta atención ó orixe do obxectivo",
     "de_DE": "Beachte die Reihenfolge in der Zieldarstellung",
     "ja": "ゴールのツリーの順番を参考にすること",
-    "fr_FR": "regardez l'ordre dans la fenêtre de visualisation d'objectif",
+    "fr_FR": "Regardez l'ordre dans la fenêtre de visualisation d'objectif",
     "ru_RU": "проверьте сортировку в визуализации цели",
     "uk": "перевірте порядок в візуалізації цілі",
     "ko": "순서는 goal을 참고하세요",
@@ -194,7 +194,7 @@ exports.level = {
               "",
               "Jusqu'à présent nous avons vu comment rapatrier (`pull`) les commits de nos collaborateurs et comment envoyer les nôtres (`push`). Cela a l'air simple, alors comment certains peuvent trouver le sujet aussi confus ?",
               "",
-              "La difficulté arrive quand l'historique du dépôt *diverge*. Avant d'aborder les détails de cette situation, voyons un exemple...",
+              "La difficulté apparaît lorsque l'historique du dépôt *diverge*. Avant d'aborder les détails de cette situation, voyons un exemple...",
               ""
             ]
           }
